@@ -1,14 +1,18 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "title": "Post 1", "body":"some comment skadj jddjd ssss jfsj" },
+    { "id": 2, "title": "Post 2", "body":"some comment skadj jddjd ssss jfsj" },
+    { "id": 3, "title": "Post 3", "body":"another comment skadj jddjd ssss jfsj" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {"id":1, "name": "Klaus Huntelaar", "username": "Kanaar", "email": "applboss@gmail.com", "phone": 37802223, "company": "Hunters Mobile"},
+    {"id":2, "name": "Peggy Sonaya", "username": "Peggaya", "email": "sonayapeg@gmail.com", "phone": 4402673, "company": "Peggy's Drycleaning"},
+    {"id":3, "name": "Joseph Maguire", "username": "Joemag", "email": "Jojo1956@gmail.com", "phone": 224423045, "company": "Jojo's Pot"},
+    {"id":4, "name": "Jon Hanus", "username": "Hanuson", "email": "Joehanus11@gmail.com", "phone": 89354033, "company": "Joe's Funeral Home"},
+    {"id":5, "name": "Ron Burgundy", "username": "Colorburgundy", "email": "Rongundy@gmail.com", "phone": 23455, "company": "Color Burgundy"}
+  ]
 }
